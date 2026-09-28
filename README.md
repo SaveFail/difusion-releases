@@ -3,14 +3,14 @@
 Repositorio **público** solo para las **descargas** de la app **LEX RECOVER**.
 El código de la aplicación se mantiene en un repositorio **privado** aparte.
 
-- La app consulta `update.json` para saber si hay una versión nueva.
-- El APK se publica en **Releases** con el nombre `app-release.apk`.
-- El enlace estable de descarga es:
+- La app consulta la **última Release** (API de GitHub) y la compara con la
+  versión instalada.
+- El APK se publica en **Releases** con el nombre **`app-release.apk`**.
+- Enlace estable de descarga:
   `https://github.com/SaveFail/lex-recover-releases/releases/latest/download/app-release.apk`
 
 ## Publicar una nueva versión
-1. Subir el `versionCode`/`versionName` en el repo de la app y compilar el release firmado.
-2. Crear un Release (etiqueta `vX.Y`) adjuntando el APK con el nombre `app-release.apk`.
-3. Actualizar `update.json` con el nuevo `versionCode`, `versionName` y notas.
+1. Subir `versionCode`/`versionName` en el repo de la app y compilar el release firmado.
+2. Crear un Release con etiqueta `vX.Y` adjuntando el APK con el nombre `app-release.apk`.
 
 > El APK debe estar firmado con la misma clave que la versión instalada.
