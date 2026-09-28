@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.3",
+  "versionCode": 5,
+  "versionName": "1.4 (prueba)",
   "apkUrl": "https://github.com/SaveFail/lex-recover-releases/releases/latest/download/app-release.apk",
-  "notes": "Optimizacion de rendimiento, permisos, plantillas y escaner QR."
+  "notes": "Prueba del flujo de actualizacion."
 }
